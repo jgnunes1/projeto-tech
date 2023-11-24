@@ -1,0 +1,372 @@
+ERROR - 2023-10-30 19:12:55 --> mysqli_sql_exception: Table 'clientes' already exists in /home/jgnunes/Projetos/projeto-m2/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/jgnunes/Projetos/projeto-m2/system/Database/MySQLi/Connection.php(306): mysqli->query()
+#1 /home/jgnunes/Projetos/projeto-m2/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/jgnunes/Projetos/projeto-m2/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/jgnunes/Projetos/projeto-m2/system/Database/Forge.php(546): CodeIgniter\Database\BaseConnection->query()
+#4 /home/jgnunes/Projetos/projeto-m2/app/Database/Migrations/2023-10-06-200345_Clientes.php(55): CodeIgniter\Database\Forge->createTable()
+#5 /home/jgnunes/Projetos/projeto-m2/system/Database/MigrationRunner.php(877): App\Database\Migrations\Clientes->up()
+#6 /home/jgnunes/Projetos/projeto-m2/system/Database/MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate()
+#7 /home/jgnunes/Projetos/projeto-m2/system/Commands/Database/Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest()
+#8 /home/jgnunes/Projetos/projeto-m2/system/CLI/Commands.php(65): CodeIgniter\Commands\Database\Migrate->run()
+#9 /home/jgnunes/Projetos/projeto-m2/system/CLI/Console.php(37): CodeIgniter\CLI\Commands->run()
+#10 /home/jgnunes/Projetos/projeto-m2/spark(102): CodeIgniter\CLI\Console->run()
+#11 {main}
+INFO - 2023-10-30 19:25:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 19:25:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 19:25:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-10-30 19:49:22 --> mysqli_sql_exception: Table 'clientes' already exists in /home/jgnunes/Projetos/projeto-m2/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/jgnunes/Projetos/projeto-m2/system/Database/MySQLi/Connection.php(306): mysqli->query()
+#1 /home/jgnunes/Projetos/projeto-m2/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/jgnunes/Projetos/projeto-m2/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/jgnunes/Projetos/projeto-m2/system/Database/Forge.php(546): CodeIgniter\Database\BaseConnection->query()
+#4 /home/jgnunes/Projetos/projeto-m2/app/Database/Migrations/2023-10-06-200345_Clientes.php(55): CodeIgniter\Database\Forge->createTable()
+#5 /home/jgnunes/Projetos/projeto-m2/system/Database/MigrationRunner.php(877): App\Database\Migrations\Clientes->up()
+#6 /home/jgnunes/Projetos/projeto-m2/system/Database/MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate()
+#7 /home/jgnunes/Projetos/projeto-m2/system/Commands/Database/Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest()
+#8 /home/jgnunes/Projetos/projeto-m2/system/CLI/Commands.php(65): CodeIgniter\Commands\Database\Migrate->run()
+#9 /home/jgnunes/Projetos/projeto-m2/system/CLI/Console.php(37): CodeIgniter\CLI\Commands->run()
+#10 /home/jgnunes/Projetos/projeto-m2/spark(102): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2023-10-30 19:51:41 --> mysqli_sql_exception: Table 'clientes' already exists in /home/jgnunes/Projetos/projeto-m2/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/jgnunes/Projetos/projeto-m2/system/Database/MySQLi/Connection.php(306): mysqli->query()
+#1 /home/jgnunes/Projetos/projeto-m2/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/jgnunes/Projetos/projeto-m2/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/jgnunes/Projetos/projeto-m2/system/Database/Forge.php(546): CodeIgniter\Database\BaseConnection->query()
+#4 /home/jgnunes/Projetos/projeto-m2/app/Database/Migrations/2023-10-06-200345_Clientes.php(55): CodeIgniter\Database\Forge->createTable()
+#5 /home/jgnunes/Projetos/projeto-m2/system/Database/MigrationRunner.php(877): App\Database\Migrations\Clientes->up()
+#6 /home/jgnunes/Projetos/projeto-m2/system/Database/MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate()
+#7 /home/jgnunes/Projetos/projeto-m2/system/Commands/Database/Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest()
+#8 /home/jgnunes/Projetos/projeto-m2/system/CLI/Commands.php(65): CodeIgniter\Commands\Database\Migrate->run()
+#9 /home/jgnunes/Projetos/projeto-m2/system/CLI/Console.php(37): CodeIgniter\CLI\Commands->run()
+#10 /home/jgnunes/Projetos/projeto-m2/spark(102): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2023-10-30 19:51:48 --> mysqli_sql_exception: Table 'clientes' already exists in /home/jgnunes/Projetos/projeto-m2/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/jgnunes/Projetos/projeto-m2/system/Database/MySQLi/Connection.php(306): mysqli->query()
+#1 /home/jgnunes/Projetos/projeto-m2/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/jgnunes/Projetos/projeto-m2/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/jgnunes/Projetos/projeto-m2/system/Database/Forge.php(546): CodeIgniter\Database\BaseConnection->query()
+#4 /home/jgnunes/Projetos/projeto-m2/app/Database/Migrations/2023-10-06-200345_Clientes.php(55): CodeIgniter\Database\Forge->createTable()
+#5 /home/jgnunes/Projetos/projeto-m2/system/Database/MigrationRunner.php(877): App\Database\Migrations\Clientes->up()
+#6 /home/jgnunes/Projetos/projeto-m2/system/Database/MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate()
+#7 /home/jgnunes/Projetos/projeto-m2/system/Commands/Database/Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest()
+#8 /home/jgnunes/Projetos/projeto-m2/system/CLI/Commands.php(65): CodeIgniter\Commands\Database\Migrate->run()
+#9 /home/jgnunes/Projetos/projeto-m2/system/CLI/Console.php(37): CodeIgniter\CLI\Commands->run()
+#10 /home/jgnunes/Projetos/projeto-m2/spark(102): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2023-10-30 19:53:23 --> mysqli_sql_exception: Table 'clientes' already exists in /home/jgnunes/Projetos/projeto-m2/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/jgnunes/Projetos/projeto-m2/system/Database/MySQLi/Connection.php(306): mysqli->query()
+#1 /home/jgnunes/Projetos/projeto-m2/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/jgnunes/Projetos/projeto-m2/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/jgnunes/Projetos/projeto-m2/system/Database/Forge.php(546): CodeIgniter\Database\BaseConnection->query()
+#4 /home/jgnunes/Projetos/projeto-m2/app/Database/Migrations/2023-10-06-200345_Clientes.php(55): CodeIgniter\Database\Forge->createTable()
+#5 /home/jgnunes/Projetos/projeto-m2/system/Database/MigrationRunner.php(877): App\Database\Migrations\Clientes->up()
+#6 /home/jgnunes/Projetos/projeto-m2/system/Database/MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate()
+#7 /home/jgnunes/Projetos/projeto-m2/system/Commands/Database/Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest()
+#8 /home/jgnunes/Projetos/projeto-m2/system/CLI/Commands.php(65): CodeIgniter\Commands\Database\Migrate->run()
+#9 /home/jgnunes/Projetos/projeto-m2/system/CLI/Console.php(37): CodeIgniter\CLI\Commands->run()
+#10 /home/jgnunes/Projetos/projeto-m2/spark(102): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2023-10-30 19:57:38 --> mysqli_sql_exception: Table 'clientes' already exists in /home/jgnunes/Projetos/projeto-m2/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/jgnunes/Projetos/projeto-m2/system/Database/MySQLi/Connection.php(306): mysqli->query()
+#1 /home/jgnunes/Projetos/projeto-m2/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/jgnunes/Projetos/projeto-m2/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/jgnunes/Projetos/projeto-m2/system/Database/Forge.php(546): CodeIgniter\Database\BaseConnection->query()
+#4 /home/jgnunes/Projetos/projeto-m2/app/Database/Migrations/2023-10-06-200345_Clientes.php(55): CodeIgniter\Database\Forge->createTable()
+#5 /home/jgnunes/Projetos/projeto-m2/system/Database/MigrationRunner.php(877): App\Database\Migrations\Clientes->up()
+#6 /home/jgnunes/Projetos/projeto-m2/system/Database/MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate()
+#7 /home/jgnunes/Projetos/projeto-m2/system/Commands/Database/Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest()
+#8 /home/jgnunes/Projetos/projeto-m2/system/CLI/Commands.php(65): CodeIgniter\Commands\Database\Migrate->run()
+#9 /home/jgnunes/Projetos/projeto-m2/system/CLI/Console.php(37): CodeIgniter\CLI\Commands->run()
+#10 /home/jgnunes/Projetos/projeto-m2/spark(102): CodeIgniter\CLI\Console->run()
+#11 {main}
+INFO - 2023-10-30 20:15:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 21:04:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-30 21:04:23 --> Class "App\Models\FuncionarioModel" not found
+in APPPATH/Controllers/Funcionarios.php on line 15.
+ 1 SYSTEMPATH/CodeIgniter.php(891): App\Controllers\Funcionarios->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/jgnunes/Projetos/projeto-m2/public/index.php')
+CRITICAL - 2023-10-30 21:05:55 --> Class "App\Models\FuncionarioModel" not found
+in APPPATH/Controllers/Funcionarios.php on line 16.
+ 1 SYSTEMPATH/CodeIgniter.php(891): App\Controllers\Funcionarios->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/jgnunes/Projetos/projeto-m2/public/index.php')
+CRITICAL - 2023-10-30 21:16:07 --> Class "App\Models\FuncionarioModel" not found
+in APPPATH/Controllers/Funcionarios.php on line 16.
+ 1 SYSTEMPATH/CodeIgniter.php(891): App\Controllers\Funcionarios->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/jgnunes/Projetos/projeto-m2/public/index.php')
+CRITICAL - 2023-10-30 21:16:16 --> Class "App\Models\FuncionarioModel" not found
+in APPPATH/Controllers/Funcionarios.php on line 16.
+ 1 SYSTEMPATH/CodeIgniter.php(891): App\Controllers\Funcionarios->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/jgnunes/Projetos/projeto-m2/public/index.php')
+CRITICAL - 2023-10-30 21:32:09 --> Class "App\Models\FuncionarioModel" not found
+in APPPATH/Controllers/Funcionarios.php on line 16.
+ 1 SYSTEMPATH/CodeIgniter.php(891): App\Controllers\Funcionarios->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/jgnunes/Projetos/projeto-m2/public/index.php')
+INFO - 2023-10-30 21:33:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-30 21:33:47 --> Array to string conversion
+in APPPATH/Views/funcionarios/index.php on line 131.
+ 1 APPPATH/Views/funcionarios/index.php(131): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(226): include('/home/jgnunes/Projetos/projeto-m2/app/Views/funcionarios/index.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Funcionarios.php(28): view()
+ 6 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Funcionarios->index()
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/jgnunes/Projetos/projeto-m2/public/index.php')
+INFO - 2023-10-30 21:34:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-30 21:34:43 --> Undefined array key "data_de_contratacao"
+in APPPATH/Views/funcionarios/index.php on line 134.
+ 1 APPPATH/Views/funcionarios/index.php(134): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(226): include('/home/jgnunes/Projetos/projeto-m2/app/Views/funcionarios/index.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Funcionarios.php(28): view()
+ 6 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Funcionarios->index()
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/jgnunes/Projetos/projeto-m2/public/index.php')
+INFO - 2023-10-30 21:35:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-30 21:35:47 --> Undefined array key "data_de_contratacao"
+in APPPATH/Views/funcionarios/index.php on line 134.
+ 1 APPPATH/Views/funcionarios/index.php(134): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(226): include('/home/jgnunes/Projetos/projeto-m2/app/Views/funcionarios/index.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Funcionarios.php(28): view()
+ 6 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Funcionarios->index()
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/jgnunes/Projetos/projeto-m2/public/index.php')
+CRITICAL - 2023-10-30 21:37:37 --> Undefined variable $funcionario
+in APPPATH/Controllers/Funcionarios.php on line 27.
+ 1 APPPATH/Controllers/Funcionarios.php(27): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Funcionarios->index()
+ 3 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/jgnunes/Projetos/projeto-m2/public/index.php')
+INFO - 2023-10-30 21:38:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-30 21:38:32 --> Undefined array key "data_de_contratacao"
+in APPPATH/Views/funcionarios/index.php on line 134.
+ 1 APPPATH/Views/funcionarios/index.php(134): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(226): include('/home/jgnunes/Projetos/projeto-m2/app/Views/funcionarios/index.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Funcionarios.php(30): view()
+ 6 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Funcionarios->index()
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/jgnunes/Projetos/projeto-m2/public/index.php')
+INFO - 2023-10-30 21:45:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 21:45:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-30 21:45:41 --> Undefined variable $data
+in APPPATH/Controllers/Funcionarios.php on line 26.
+ 1 APPPATH/Controllers/Funcionarios.php(26): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Funcionarios->index()
+ 3 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/jgnunes/Projetos/projeto-m2/public/index.php')
+INFO - 2023-10-30 21:46:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-30 21:46:13 --> Invalid file: "funcionarios/ver.php"
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 39.
+ 1 SYSTEMPATH/View/View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Funcionarios.php(119): view()
+ 4 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Funcionarios->ver()
+ 5 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/jgnunes/Projetos/projeto-m2/public/index.php')
+INFO - 2023-10-30 21:46:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 21:59:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-30 21:59:51 --> Undefined variable $funcionario
+in APPPATH/Views/funcionarios/ver.php on line 52.
+ 1 APPPATH/Views/funcionarios/ver.php(52): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(226): include('/home/jgnunes/Projetos/projeto-m2/app/Views/funcionarios/ver.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Funcionarios.php(119): view()
+ 6 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Funcionarios->ver()
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/jgnunes/Projetos/projeto-m2/public/index.php')
+INFO - 2023-10-30 22:00:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 22:01:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-30 22:11:42 --> Undefined variable $funcionario
+in APPPATH/Views/funcionarios/ver.php on line 52.
+ 1 APPPATH/Views/funcionarios/ver.php(52): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(226): include('/home/jgnunes/Projetos/projeto-m2/app/Views/funcionarios/ver.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Funcionarios.php(119): view()
+ 6 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Funcionarios->ver()
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/jgnunes/Projetos/projeto-m2/public/index.php')
+INFO - 2023-10-30 22:11:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 22:34:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 22:45:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 22:45:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 22:45:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-30 22:51:07 --> Undefined variable $funcionario
+in APPPATH/Views/funcionarios/ver.php on line 52.
+ 1 APPPATH/Views/funcionarios/ver.php(52): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(226): include('/home/jgnunes/Projetos/projeto-m2/app/Views/funcionarios/ver.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Funcionarios.php(119): view()
+ 6 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Funcionarios->ver()
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/jgnunes/Projetos/projeto-m2/public/index.php')
+CRITICAL - 2023-10-30 22:53:21 --> Undefined variable $funcionario
+in APPPATH/Views/funcionarios/ver.php on line 52.
+ 1 APPPATH/Views/funcionarios/ver.php(52): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(226): include('/home/jgnunes/Projetos/projeto-m2/app/Views/funcionarios/ver.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Funcionarios.php(119): view()
+ 6 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Funcionarios->ver()
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/jgnunes/Projetos/projeto-m2/public/index.php')
+CRITICAL - 2023-10-30 22:56:58 --> Undefined variable $funcionario
+in APPPATH/Views/funcionarios/ver.php on line 52.
+ 1 APPPATH/Views/funcionarios/ver.php(52): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(226): include('/home/jgnunes/Projetos/projeto-m2/app/Views/funcionarios/ver.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Funcionarios.php(119): view()
+ 6 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Funcionarios->ver()
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/jgnunes/Projetos/projeto-m2/public/index.php')
+CRITICAL - 2023-10-30 22:59:14 --> Undefined variable $funcionario
+in APPPATH/Views/funcionarios/ver.php on line 52.
+ 1 APPPATH/Views/funcionarios/ver.php(52): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(226): include('/home/jgnunes/Projetos/projeto-m2/app/Views/funcionarios/ver.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Funcionarios.php(121): view()
+ 6 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Funcionarios->ver()
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/jgnunes/Projetos/projeto-m2/public/index.php')
+CRITICAL - 2023-10-30 22:59:24 --> Undefined variable $funcionario
+in APPPATH/Views/funcionarios/ver.php on line 52.
+ 1 APPPATH/Views/funcionarios/ver.php(52): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(226): include('/home/jgnunes/Projetos/projeto-m2/app/Views/funcionarios/ver.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Funcionarios.php(121): view()
+ 6 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Funcionarios->ver()
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/jgnunes/Projetos/projeto-m2/public/index.php')
+CRITICAL - 2023-10-30 22:59:28 --> Undefined variable $funcionario
+in APPPATH/Views/funcionarios/ver.php on line 52.
+ 1 APPPATH/Views/funcionarios/ver.php(52): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(226): include('/home/jgnunes/Projetos/projeto-m2/app/Views/funcionarios/ver.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Funcionarios.php(121): view()
+ 6 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Funcionarios->ver()
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/jgnunes/Projetos/projeto-m2/public/index.php')
+CRITICAL - 2023-10-30 22:59:31 --> Undefined variable $funcionario
+in APPPATH/Views/funcionarios/ver.php on line 52.
+ 1 APPPATH/Views/funcionarios/ver.php(52): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(226): include('/home/jgnunes/Projetos/projeto-m2/app/Views/funcionarios/ver.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Funcionarios.php(121): view()
+ 6 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Funcionarios->ver()
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/jgnunes/Projetos/projeto-m2/public/index.php')
+CRITICAL - 2023-10-30 23:01:32 --> Undefined variable $funcionario
+in APPPATH/Views/funcionarios/ver.php on line 52.
+ 1 APPPATH/Views/funcionarios/ver.php(52): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(226): include('/home/jgnunes/Projetos/projeto-m2/app/Views/funcionarios/ver.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Funcionarios.php(119): view()
+ 6 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Funcionarios->ver()
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/jgnunes/Projetos/projeto-m2/public/index.php')
+CRITICAL - 2023-10-30 23:02:09 --> Undefined variable $funcionario
+in APPPATH/Views/funcionarios/ver.php on line 62.
+ 1 APPPATH/Views/funcionarios/ver.php(62): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(226): include('/home/jgnunes/Projetos/projeto-m2/app/Views/funcionarios/ver.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Funcionarios.php(119): view()
+ 6 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Funcionarios->ver()
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/jgnunes/Projetos/projeto-m2/public/index.php')
+INFO - 2023-10-30 23:13:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 23:13:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 23:13:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 23:13:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 23:13:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 23:13:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 23:13:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 23:13:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 23:13:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 23:13:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 23:13:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 23:13:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 23:13:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 23:13:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 23:13:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 23:13:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 23:13:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 23:14:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 23:19:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 23:19:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 23:19:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 23:19:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 23:19:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 23:19:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 23:19:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 23:19:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
