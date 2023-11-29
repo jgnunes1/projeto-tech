@@ -51,7 +51,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
       <script src="<?= base_url('assets/js/Chart.js')?>"></script>
 
 </head>
-<body class="hold-transition sidebar-mini">
+<body class="hold-transition sidebar-mini text-sm">
 <div class="wrapper">
 
 <?php include_once('navbar.php') ?>
