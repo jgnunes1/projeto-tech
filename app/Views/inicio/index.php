@@ -36,7 +36,7 @@
                      <div class="row">
 
                             
-                                   <div class="col-md-3 col-sm-6 col-12">
+                                   <div class="col-md-4 col-sm-6 col-12">
                                         <div class="info-box">
                                             <span class="info-box-icon bg-info"><i class="fas fa-users"></i></span>
                                             <div class="info-box-content">
@@ -49,7 +49,7 @@
                                             </div>
 
 
-                                  <div class="col-md-3 col-sm-6 col-12">
+                                  <div class="col-md-4 col-sm-6 col-12">
                                           <div class="info-box">
                                           <span class="info-box-icon bg-success"><i class="fas fa-users"></i></span>
                                           <div class="info-box-content">
@@ -62,7 +62,7 @@
                                           </div>
 
 
-                                  <div class="col-md-3 col-sm-6 col-12">
+                                  <div class="col-md-4 col-sm-6 col-12">
                                               <div class="info-box">
                                               <span class="info-box-icon bg-warning"><i class="fas fa-box-open"></i></span>
                                               <div class="info-box-content">
